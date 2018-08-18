@@ -135,4 +135,14 @@ justCoolStuff = (arr1,arr2) => {
 console.log(justCoolStuff(arr1, arr2)); // Should return ['this']
 
 
+//Challenge 10 (isTheDinnerVegan())
+
+
+
+//Challenge 11 (dogFactory())
+function dogFactory(name,breed,weight) {
+    return {name: name, breed: breed, weight: weight};
+}
+
+console.log(dogFactory('Blue', 'PitBull', 140));
 
