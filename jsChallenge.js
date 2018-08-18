@@ -121,3 +121,18 @@ const sortYears = years => years.sort(function(a, b){return b - a});
 
 console.log(sortYears(years));
 
+
+//Challenge 9 (justCoolStuff())
+/* Write a function justCoolStuff() that takes in two arrays of strings, and, using the built-in .filter() method, returns an array with the items that are present in both arrays. */
+
+let arr1 = ['this', 'not this', 'nor this'];
+let arr2 = ['thing 1', 'thing 2', 'this'];
+
+justCoolStuff = (arr1,arr2) => {
+    return arr1.filter(word => arr2.includes(word));
+};
+
+console.log(justCoolStuff(arr1, arr2)); // Should return ['this']
+
+
+
